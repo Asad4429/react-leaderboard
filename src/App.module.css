@@ -1,0 +1,12 @@
+.welcomeMessage {
+    margin    : 120px auto;
+    width     : 50%;
+    text-align: left;
+    font-size : 24px;
+}
+
+.msg {
+    font-size : 24px;
+    text-align: center;
+    margin-top: 60px;
+}

@@ -1,0 +1,111 @@
+.container {
+  display       : flex;
+  flex-direction: column;
+  align-items   : center;
+}
+
+.heading {
+  color : #182C62;
+  margin: 60px 0 20px 0;
+}
+
+.dataContainer {
+  width: 90%;
+}
+
+.dataHeader {
+  height          : 40px;
+  align-items     : center;
+  background-color: #E4EDF2;
+}
+
+.dataHeading {
+  padding   : 0 8px;
+  font-size : 12px;
+  text-align: start;
+  color     : #4B5C68;
+}
+
+.dataItem {
+  height       : 70px;
+  align-items  : center;
+  padding      : 0 20px;
+  border-bottom: 1px solid #E4EDF2;
+}
+
+.dataItem:nth-child(even) {
+  background: #F6F7F7;
+}
+
+.dataItem:last-child {
+  border-bottom: none;
+}
+
+.dataItemText {
+  font-size: 14px;
+  color    : #4B5C68;
+  padding  : 0 8px;
+}
+
+.dataItemTextBold {
+  font-size  : 16px;
+  font-weight: 800;
+  color      : #4B5C68;
+  padding    : 0 8px;
+}
+
+.scoreCol {
+  text-align: center;
+  padding   : 0;
+  width     : 40px;
+}
+
+.dtItemContainer {
+  display       : flex;
+  flex-direction: column;
+  align-items   : flex-end;
+  width         : min-content;
+}
+
+.teamInfo {
+  display    : flex;
+  align-items: center;
+  column-gap : 10px;
+}
+
+.flag {
+  display         : block;
+  height          : 37px;
+  width           : 53px;
+  background-color: lightgrey;
+}
+
+.leftAlign {
+  text-align: start;
+}
+
+.rightAlign {
+  text-align: end;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+@media screen and (max-width: 750px) {
+  .stadiumCol {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dateTimeCol {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .flag {
+    display: none;
+  }
+}
